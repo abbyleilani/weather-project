@@ -5,7 +5,7 @@ function formatDate(date) {
   }
   let minutes = date.getMinutes();
   if (minutes < 10) {
-    minutes = `0 ${minutes}`;
+    minutes = `0${minutes}`;
   }
   let dayIndex = date.getDay();
   let days = [
@@ -27,7 +27,7 @@ dateElement.innerHTML = formatDate(currentTime);
 
 function searchLocation(position) {
   let apiKey = "f14ebee905d769055360762f5ca6cd29";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=imperial`;
 
   axios.get(apiUrl).then(displayWeather);
 }
@@ -39,7 +39,7 @@ function getCurrentLocation(event) {
 
 function searchCity(city) {
   let apiKey = "f14ebee905d769055360762f5ca6cd29";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeather);
 }
 
