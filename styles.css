@@ -2,12 +2,14 @@ html {
   min-height: 100%;
 }
 body {
+  max-width: 600px;
   height: 100%;
   text-align: center;
   font-family: "Inconsolata", monospace;
-  margin: 75px 75px;
-  padding: 25px 0;
-  background: linear-gradient(#fffff2, #83c4ea);
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 h1,
 h2 {
@@ -46,8 +48,8 @@ img {
 #search-form {
   max-width: 450px;
   font-weight: 700;
-  border: 2px solid black;
-  border-radius: 10px 10px;
-  margin: 5px auto;
+  border: 1.25px solid black;
+  border-radius: 5px;
+  margin: 25px auto;
   padding: 15px;
 }

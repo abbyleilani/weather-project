@@ -27,49 +27,49 @@
   </head>
   <body>
     <div class="container">
-    <form id="search-form">
-      <div class="row">
-        <div class="col-6">
-          <input
-            type="search"
-            placeholder="Type a city"
-            autocomplete="off"
-            autofocus="off"
-            id="city-input"
-            class="form-control shadow-sm"
-          />
+      <form id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="search"
+              placeholder="Type a city"
+              autocomplete="off"
+              autofocus="off"
+              id="city-input"
+              class="form-control shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn-primary shadow-sm w-100"
+            />
+          </div>
+          <div class="col-3">
+            <button class="btn btn-success" id="current-location-button">
+              Current
+            </button>
+          </div>
         </div>
-        <div class="col-3">
-          <input
-            type="submit"
-            value="Search"
-            class="form-control btn-primary shadow-sm w-100"
-          />
-        </div>
-        <div class="col-3">
-          <button class="btn btn-success" id="current-location-button">
-            Current
-          </button>
-        </div>
-      </div>
-      </div>
-    </form>
+      </form>
 
-    <h1 id="city"></h1>
-    <h2 class="temperature"><span id="temperature"></span>°F</h2>
+      <h1 id="city"></h1>
+      <h2 class="temperature"><span id="temperature"></span>°F</h2>
 
-    <h3 id="date">current date</h3>
-    <ul>
-      <li id="description">Partly cloudy</li>
-      <li>Humidity:<span id="humidity"></span>%</li>
-      <li>Wind: <span id="wind"></span>mph</li>
-    </ul>
-    <p>
-      <a href="https://github.com/abbyleilani/weather-project" target="_blank"
-        >Open source code</a
-      >
-      by Abbygayle Baker
-    </p>
+      <h3 id="date">current date</h3>
+      <ul>
+        <li id="description">Partly cloudy</li>
+        <li>Humidity:<span id="humidity"></span>%</li>
+        <li>Wind: <span id="wind"></span>mph</li>
+      </ul>
+      <p>
+        <a href="https://github.com/abbyleilani/weather-project" target="_blank"
+          >Open source code</a
+        >
+        by Abbygayle Baker
+      </p>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
