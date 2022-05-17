@@ -48,6 +48,7 @@ li:first-letter {
 }
 
 #search-form {
+  display: block;
   max-width: 450px;
   font-weight: 700;
   margin: 25px auto;
