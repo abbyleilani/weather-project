@@ -26,12 +26,16 @@ h2 {
   font-size: 75px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 ul {
   list-style: none;
 }
 
-img {
-  width: 200px;
+li:first-letter {
+  text-transform: capitalize;
 }
 
 .units {
@@ -39,17 +43,13 @@ img {
   font-weight: normal;
 }
 
-.weather-icon,
-.degrees {
-  font-size: 30px;
-  font-weight: 300;
+.source {
+  font-size: 12px;
 }
 
 #search-form {
   max-width: 450px;
   font-weight: 700;
-  border: 1.25px solid black;
-  border-radius: 5px;
   margin: 25px auto;
   padding: 15px;
 }
