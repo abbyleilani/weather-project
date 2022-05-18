@@ -38,9 +38,21 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+a {
+  text-decoration: none;
+}
+
 .units {
   font-size: 24px;
   font-weight: normal;
+}
+
+.active {
+  color: black;
+}
+
+.active:hover {
+  text-decoration: none;
 }
 
 .source {
@@ -48,8 +60,6 @@ li:first-letter {
 }
 
 #search-form {
-  display: block;
-  max-width: 450px;
   font-weight: 700;
   margin: 25px auto;
   padding: 15px;
