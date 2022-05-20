@@ -43,6 +43,10 @@ a {
   color: #e52d92;
 }
 
+a:hover {
+  color: #6f42c1;
+}
+
 .btn {
   background-color: #6f42c1;
   border-color: #6f42c1;
