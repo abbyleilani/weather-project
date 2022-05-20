@@ -1,20 +1,19 @@
 html {
   min-height: 100%;
-  background-color: #f3f3f3;
+  background-color: #f2eff9;
 }
 body {
   max-width: 600px;
   height: 100%;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   margin: 0 auto;
-  margin-top: 50px;
-  border: 2px solid #6f42c1;
+  margin-top: 75px;
+  border: 3px solid #6f42c1;
   border-radius: 10px;
 }
 h1,
 h2 {
-  font-family: "Inconsolata", monospace;
   font-weight: 700;
 }
 
@@ -41,6 +40,7 @@ li:first-letter {
 
 a {
   text-decoration: none;
+  color: #e52d92;
 }
 
 .btn {
@@ -50,8 +50,9 @@ a {
 }
 
 .btn:hover {
-  background-color: transparent;
+  background-color: #ffb2ed;
   color: #6f42c1;
+  border: solid 2px #6f42c1;
 }
 
 .units {
@@ -75,4 +76,13 @@ a {
   font-weight: 700;
   margin: 25px auto;
   padding: 15px;
+}
+
+.weatherConditions {
+  color: #e52d92;
+  font-size: 18px;
+}
+
+.source {
+  margin-bottom: 25px;
 }

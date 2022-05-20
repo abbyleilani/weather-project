@@ -53,8 +53,8 @@
       <h2 class="temperature">
         <span id="temperature"></span
         ><span class="units"
-          ><a href="#" id="fahrenheit-link" class="active">°F</a>|
-          <a href="#" id="celsius-link">°C</a></span
+          ><a href="#" id="fahrenheit-link" class="active"> °F</a> |
+          <a href="#" class="inactive" id="celsius-link"> °C</a></span
         >
         <img
           id="icon"
@@ -62,11 +62,13 @@
           src="https://openweathermap.org/img/wn/10d@2x.png"
         />
       </h2>
-      <h3>Last updated:<span id="date"></span></h3>
+      <h3>Last updated: <span id="date"></span></h3>
       <ul>
-        <li id="description">Partly cloudy</li>
-        <li>Humidity:<span id="humidity"></span>%</li>
-        <li>Wind: <span id="wind"></span>mph</li>
+        <li id="description" class="weatherConditions">Partly cloudy</li>
+        <li>
+          Humidity: <span id="humidity" class="weatherConditions"></span>%
+        </li>
+        <li>Wind: <span id="wind" class="weatherConditions"></span>mph</li>
       </ul>
       <p class="source">
         <a href="https://github.com/abbyleilani/weather-project" target="_blank"
